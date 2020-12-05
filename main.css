@@ -1,0 +1,135 @@
+/*Common elements*/
+body {
+    font-size: 75%;
+    font-family: "Monaco", "Lucida Console", monospace;
+    background: lightblue;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: purple;
+    font-size: 2.0em;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: rgb(219, 71, 170);
+    font-size: 1.8em;
+    padding: 0;
+    margin: 0; 
+}
+
+h3 {
+    color: rgb(160, 72, 50);
+    font-size: 1.6em;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-size: 1.4em;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+a:hover {
+    color: purple;
+}
+
+hr {
+    padding: 0;
+    margin: 1.0em;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*Header*/
+header {
+    background-color: rgb(160, 72, 50);
+    display: block;
+}
+
+/*Nav Bars*/
+nav section h1 {
+width: 200px;
+}
+
+/* h1.logoClass {
+    display: block;
+}*/
+
+img.logoClass {
+    border: 1px solid black;
+    display: inline;
+    /* float: left; */
+}
+
+
+#logoID {
+    border: 1px solid black;
+    height: 380px;
+    width: 1000px;
+    display: inline-block;
+}
+
+#logoSection {
+    display: inline-block;
+    width: 1000px;
+    height: 800px;
+    border: 1px solid black;
+}
+#logoTextContainer {
+
+    
+    width: 300px;
+}
+
+/* #logoSection >h1 {
+    display: block;
+} */
+/*
+#logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#beginningLinks {
+    border: 1px solid black;
+    width: 220px;
+    height: 70px;
+    float: right;
+}
+*/
+
+/*Main Section*/
+.candyKind {
+    width: 300px;
+    height: 300px;
+}
+/*About Us*/
+/*Joke of the Day*/
+/*Footer*/
+.socialMedia {
+    display: inline-block;
+    padding: 5px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: white;
+}
